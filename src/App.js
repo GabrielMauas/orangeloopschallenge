@@ -1,5 +1,5 @@
 import React from 'react';
-import { VStack, Heading, IconButton, Grid, Text, Flex, HStack, Box, Input, Stack, Button, useColorMode } from '@chakra-ui/react';
+import { VStack, Heading, IconButton, Text, Flex, HStack, Input, Button, useColorMode } from '@chakra-ui/react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 // import useColorMode from '@chakra-ui/react';
 
@@ -13,7 +13,7 @@ function App() {
     <VStack w="100%" p="10" h="100vh">
         <Flex mb="4" direction="row" justify="space-between" w="100%">
           <Heading>Dark Mode Challenge</Heading>
-          <IconButton bg="white" icon={ colorMode === 'light' ? <FaSun /> : <FaMoon /> } color="black" bg="white" onClick={toggleColorMode} />
+          <IconButton bg="white" icon={ colorMode === 'light' ? <FaSun /> : <FaMoon /> } color="black" onClick={toggleColorMode} />
         </Flex>
         <Flex direction={["row", "column"]}>
             <Text mb="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales turpis pulvinar sapien ultricies, sed suscipit lectus luctus. Donec commodo mollis orci, ut ultrices nunc commodo nec. Mauris feugiat auctor tellus, lobortis fringilla purus fermentum ut. Nulla aliquam blandit dolor et lobortis. Ut vehicula, risus sed eleifend ullamcorper, dolor leo dapibus turpis, sed luctus mauris sapien a tortor. Duis pulvinar, justo quis dictum accumsan, sem leo maximus metus, vel aliquet nibh nibh at nulla. Cras et libero pharetra, pretium mi nec, rhoncus nisi. Nulla ut leo ac elit pharetra interdum in quis elit. Morbi ultricies, justo at posuere viverra, nibh mauris porttitor diam, ac sollicitudin mi nisl sed ante. Sed vestibulum vehicula purus vitae sagittis. Nulla interdum pellentesque elit, ut blandit urna maximus in.</Text>
