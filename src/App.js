@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <VStack w="100%" p="10" h="100vh">
+    <VStack w="100%" p="10" h="110vh">
         <Flex mb="4" direction="row" justify="space-between" w="100%">
           <Heading>Dark Mode Challenge</Heading>
           <IconButton bg="white" icon={ colorMode === 'light' ? <FaSun /> : <FaMoon /> } color="black" onClick={toggleColorMode} />
@@ -20,7 +20,7 @@ function App() {
    
             <Text mx={["0","3"]}>Nam est dolor, vehicula in risus vel, fringilla vehicula lacus. Curabitur feugiat tempor consectetur. Aliquam ut euismod sem. Aenean laoreet maximus ex sed ullamcorper. Vestibulum nec aliquet orci. Praesent consequat rutrum mi non viverra. Ut in porttitor libero. Vivamus fringilla est et leo porttitor gravida. Fusce lacinia ut dui eget condimentum. Nulla vitae posuere eros, sed porttitor libero. Etiam purus est, mattis non libero finibus, facilisis luctus elit. Aliquam erat volutpat.</Text>
         </Flex>
-        <Flex direction="column" w={["95%", "75%"]}>
+        <Flex direction="column" w={["95%", "75%"]} >
           <Input type="text" variant="filled" my="4" bg="gray.200"/>
           <Input type="email" variant="filled" bg="gray.200"/>
           <HStack mt="4" justify="flex-end" spacing="10">
