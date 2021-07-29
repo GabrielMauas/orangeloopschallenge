@@ -1,5 +1,5 @@
 import React from 'react';
-import { VStack, Heading, IconButton, Text, Flex, HStack, Input, Button, useColorMode, Spacer } from '@chakra-ui/react';
+import { VStack, Heading, IconButton, Text, Flex, HStack, Input, Button, useColorMode } from '@chakra-ui/react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 // import useColorMode from '@chakra-ui/react';
 
@@ -17,7 +17,7 @@ function App() {
         </Flex>
         <Flex direction={["column", "row"]}>
             <Text mb="4" mx="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales turpis pulvinar sapien ultricies, sed suscipit lectus luctus. Donec commodo mollis orci, ut ultrices nunc commodo nec. Mauris feugiat auctor tellus, lobortis fringilla purus fermentum ut. Nulla aliquam blandit dolor et lobortis. Ut vehicula, risus sed eleifend ullamcorper, dolor leo dapibus turpis, sed luctus mauris sapien a tortor. Duis pulvinar, justo quis dictum accumsan, sem leo maximus metus, vel aliquet.</Text>
-            {/* <Spacer /> */}
+   
             <Text mx="2">Nam est dolor, vehicula in risus vel, fringilla vehicula lacus. Curabitur feugiat tempor consectetur. Aliquam ut euismod sem. Aenean laoreet maximus ex sed ullamcorper. Vestibulum nec aliquet orci. Praesent consequat rutrum mi non viverra. Ut in porttitor libero. Vivamus fringilla est et leo porttitor gravida. Fusce lacinia ut dui eget condimentum. Nulla vitae posuere eros, sed porttitor libero. Etiam purus est, mattis non libero finibus, facilisis luctus elit. Aliquam erat volutpat.</Text>
         </Flex>
         <Flex direction="column" w={["95%", "75%"]}>
